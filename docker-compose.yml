@@ -8,3 +8,5 @@ services:
       - 3993:8501
     env_file:
     - .env
+    volumes:
+      - ./data:/logs  # Mounts a folder on the host to persist files

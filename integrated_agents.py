@@ -454,7 +454,7 @@ else:
         # save st.session_state.messages
         now = datetime.now()
         filename = now.strftime("%d%m%y_%H%M.json")
-        filepath = "logs/" + filename  # You can add a path here if needed, e.g., "data/" + filename
+        filepath = "/logs/" + filename  # You can add a path here if needed, e.g., "data/" + filename
         if not os.path.exists(filepath):
             open(filepath, 'w').close()
             st.session_state.chat_logs_name = filepath
