@@ -6,3 +6,5 @@ services:
     command: streamlit run integrated_agents.py --server.port 8501 --theme.primaryColor=blue
     ports:
       - 3993:8501
+    env_file:
+    - .env

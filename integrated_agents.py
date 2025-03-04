@@ -16,7 +16,9 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 from datetime import datetime
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
+openai_api_key = os.getenv("OPENAI_API_KEY")
+if openai_api_key is None:
+    raise ValueError("Missing OPENAI_API_KEY environment variable")
 
 #### Move to Agents.py #####
 # Define the Mentor agent
