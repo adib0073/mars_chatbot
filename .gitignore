@@ -171,4 +171,7 @@ cython_debug/
 .pypirc
 
 # Remove directories that are not needed
-.logs
+logs/*
+logs/
+secrets/
+secrets/*
