@@ -1,0 +1,8 @@
+version: '3'
+services:
+  langchain-rag-app:
+    image: mars_chatbot:latest
+    build: .
+    command: streamlit run integrated_agents.py --server.port 8501 --client.showErrorDetails=False --theme.primaryColor=blue
+    ports:
+      - 8501:8501
