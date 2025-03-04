@@ -406,9 +406,9 @@ if "display_quick_questions" not in st.session_state:
 if "display_resume" not in st.session_state:
     st.session_state.display_resume = False
 if "display_mentor_response" not in st.session_state:
-    st.session_state.display_mentor_response = True
+    st.session_state.display_mentor_response = False
 if "display_recruiter_response" not in st.session_state:
-    st.session_state.display_recruiter_response = True
+    st.session_state.display_recruiter_response = False
 
 
 # Toggle Buttons
