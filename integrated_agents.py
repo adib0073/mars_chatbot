@@ -16,6 +16,8 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 from datetime import datetime
 
+openai.api_key = os.environ["OPENAI_API_KEY"]
+
 #### Move to Agents.py #####
 # Define the Mentor agent
 @st.cache_resource 
