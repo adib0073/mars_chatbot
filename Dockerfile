@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8501
 
 # command to launch app
-CMD streamlit run integrated_agents.py --theme.primaryColor=blue
+CMD streamlit run integrated_agents.py --client.showErrorDetails=False --theme.primaryColor=blue
