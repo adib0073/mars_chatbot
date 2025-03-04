@@ -5,4 +5,4 @@ services:
     build: .
     command: streamlit run integrated_agents.py --server.port 8501 --client.showErrorDetails=False --theme.primaryColor=blue
     ports:
-      - 3997:8501
+      - 3993:8501
