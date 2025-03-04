@@ -3,6 +3,6 @@ services:
   mars_chatbot:
     image: mars_chatbot:latest
     build: .
-    command: streamlit run integrated_agents.py --server.port 8501 --client.showErrorDetails=False --theme.primaryColor=blue
+    command: streamlit run integrated_agents.py --server.port 8501 --theme.primaryColor=blue
     ports:
       - 3993:8501
