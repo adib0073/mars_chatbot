@@ -224,9 +224,9 @@ def get_match_score(resume_text, jd_text):
     You are an AI recruiter. Compare the given candidate's resume with the job description and provide a match score out of 100 based on these criteria:
     
     1. Minimum skills required for the opening is met by the candidate (out of 45)
-    2. Minimum years of experience mentioned in the job description is met by the candidate (out of 25)
+    2. Minimum years of experience mentioned in the job description is met by the candidate (out of 35)
     3. Minimum educational qualification is met by the candidate (out of 5)
-    4. Rate the candidate on leadership skills (both people management or tech leadership, or thought leadership: also out of 20)
+    4. Rate the candidate on leadership skills (both people management or tech leadership, or thought leadership: also out of 10)
     5. Rate based on additional strengths like awards, recognitions, certifications, publications, patents, or any other achievements (out of 5)
 
     Think step-by-step when assigning the scores. You are very strict when assigning the scores. But if something is missing in a certain criteria, then go for a low score for that criteria.
@@ -239,9 +239,9 @@ def get_match_score(resume_text, jd_text):
 
     Provide the individual scores for each criterion and the total match score. Format the output as:
     Skill Match: X/45
-    Experience Match: X/25
+    Experience Match: X/35
     Education Match: X/5
-    Leadership Match: X/20
+    Leadership Match: X/10
     Additional Strengths: X/5
 
     The "total_score" should be sum of all individual scores and should be out of 100.
