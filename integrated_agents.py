@@ -229,7 +229,7 @@ def get_match_score(resume_text, jd_text):
     4. Rate the candidate on leadership skills (both people management or tech leadership, or thought leadership: also out of 10)
     5. Rate based on additional strengths like awards, recognitions, certifications, publications, patents, or any other achievements (out of 5)
 
-    Think step-by-step when assigning the scores. You are very strict when assigning the scores. But if something is missing in a certain criteria, then go for a low score for that criteria.
+    Think step-by-step when assigning the scores. You are very strict when assigning the scores. But if something is missing in a certain criteria, then go for a low score (<10%) for that criteria.
 
     Resume:
     {resume_text}
