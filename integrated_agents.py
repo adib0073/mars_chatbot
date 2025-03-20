@@ -223,7 +223,7 @@ def get_match_score(resume_text, jd_text):
     prompt = f"""
     You are an AI recruiter. Compare the given candidate's resume with the job description and provide a match score out of 100 based on these criteria:
     
-    1. Minimum skills required for the opening is met by the candidate (out of 45)
+    1. Minimum skills and domain knowledge required for the opening is met by the candidate (out of 45)
     2. Minimum years of experience mentioned in the job description is met by the candidate (out of 35)
     3. Minimum educational qualification is met by the candidate (out of 5)
     4. Rate the candidate on leadership skills (both people management or tech leadership, or thought leadership: also out of 10)
