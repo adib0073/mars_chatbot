@@ -1,5 +1,5 @@
-# mars_chatbot
-MARS: Multi Agentic Recruitment System
+# MARS: Multi Agentic Recruitment System
+Let's Get You Hired: A Job Seeker’s Perspective on Multi-Agent Recruitment Systems for Explaining Hiring Decisions
 
 ## Abstract
 During job recruitment, traditional applicant selection methods often lack transparency. Candidates are rarely given sufficient justifications for recruiting decisions, whether they are made manually by human recruiters or through the use of black-box Applicant Tracking Systems (ATS). To address this problem, our work introduces a multi-agent AI system that uses Large Language Models (LLMs) to guide job seekers during the recruitment process. Using an iterative user-centric design approach, we first conducted a two-phased exploratory study with four active job seekers to inform the design and development of the system. Subsequently, we conducted an in-depth, qualitative user study with 20 active job seekers through individual one-to-one interviews to evaluate the developed prototype. The results of our evaluation demonstrate that participants perceived our multi-agent recruitment system as significantly more actionable, trustworthy, and fair compared to traditional methods. Our study further helped us uncover in-depth insights into factors contributing to these perceived user experiences. Drawing from these insights, we offer broader design implications for building user-aligned, multi-agent explainable AI systems across diverse domains.
